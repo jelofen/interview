@@ -1,0 +1,24 @@
+version: '3.4'
+services:
+  app:
+    container_name: app
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      args:
+        - PORT = ${PORT}
+    ports:
+      - 8080:${PORT}
+    env_file:
+      - .env
+    volumes:
+      - ./src:/app/src
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    restart: always
+    volumes:
+      - ./data:/data/db
