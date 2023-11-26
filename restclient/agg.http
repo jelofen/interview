@@ -1,0 +1,11 @@
+GET {{baseurl}}/agg/2/2018-09-17/2018-09-18/manglerud?components=pm10
+
+###
+
+GET {{baseurl}}/agg/2/2018-09-17/2018-09-18/59.89869/10.81495/3.0?components=pm10;no2&method=within
+
+###
+
+GET {{baseurl}}/agg/2/2019-01-01/2019-01-02/ids/19;23
+
+###

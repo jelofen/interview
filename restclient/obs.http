@@ -1,0 +1,19 @@
+GET {{baseurl}}/obs/utd?areas=bergen;trondheim&components=pm10
+
+###
+
+GET {{baseurl}}/obs/utd/59.89869/10.81495/3?method=within&components=no2
+
+###
+
+GET {{baseurl}}/obs/historical/2017-01-01%2013:00/2017-01-01%2016:00/alnabru?components=pm10
+
+###
+
+GET {{baseurl}}/obs/historical/2017-01-01/2017-01-02/59.89869/10.81495/3.0?components=no2;pm10
+
+###
+
+GET {{baseurl}}/obs/historical/2019-01-01/2019-01-02/ids/19;23
+
+###

@@ -1,0 +1,9 @@
+{
+  "rest-client.environmentVariables": {
+    "$shared": {},
+    "local": {
+      "baseurl": "http://localhost:8080"
+    },
+    "production": {}
+  }
+}

@@ -1,0 +1,22 @@
+GET {{baseurl}}/lookup/areas
+
+###
+
+GET {{baseurl}}/lookup/stations?area=bergen
+
+###
+
+GET {{baseurl}}/lookup/components
+
+###
+
+GET {{baseurl}}/lookup/aqis?component=pm10
+
+###
+GET {{baseurl}}/lookup/meantypes
+
+###
+
+GET {{baseurl}}/lookup/timeseries?station=alnabru
+
+###
